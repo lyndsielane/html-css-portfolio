@@ -1,0 +1,55 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7ede2;
+  padding: 10px;
+}
+
+img {
+  border-radius: 50%;
+  width: 400px;
+}
+
+header > h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+}
+
+#bio {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5cac3;
+  text-align: center;
+  margin: 2rem;
+}
+
+#work {
+  text-align: center;
+  background-color: #84a59d;
+  margin: 2rem;
+}
+
+.project {
+  display: inline-block;
+  border: 5px solid #f28482;
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+}
